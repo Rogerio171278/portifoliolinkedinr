@@ -11,7 +11,7 @@ body {
   font-weight: 400;
   color: #ffffff;
   overflow-x: hidden;
-  background-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
+  background-color: rgb(0, 0, 0); /* Preto transparente */
 }
 
 a, button {
@@ -46,7 +46,7 @@ a:hover {
   background-color: #3398cc;
 }
 
-.tm-bg-dark-gray {
+.tm-bg-dark-black {
   background-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
 }
 
@@ -167,8 +167,8 @@ a:hover {
   color: #3398cc;
 }
 
-.tm-text-dark-gray {
-  color: #e9e8e8d8;
+.tm-text-black {
+  color: #000000d8;
 }
 
 .tm-title-small {
@@ -239,7 +239,7 @@ p {
 
 .tm-btn-submit:focus,
 .tm-btn-submit:hover {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .tm-copyright-text {
