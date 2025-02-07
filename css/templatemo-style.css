@@ -9,8 +9,9 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #000000;
+  color: #ffffff;
   overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
 }
 
 a, button {
@@ -26,11 +27,11 @@ a:hover {
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8); /* Preto transparente */
 }
 
 .tm-bg-green {
@@ -46,7 +47,7 @@ a:hover {
 }
 
 .tm-bg-dark-gray {
-  background-color: #676767;
+  background-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
 }
 
 /* Welcome section */
@@ -112,8 +113,8 @@ a:hover {
 }
 
 .tm-welcome-right {
-  color: rgb(185, 185, 185);
-  background-color: #000000;
+  color: rgba(255, 255, 255, 0.699);
+  background-color: rgba(0, 0, 0, 0.75); /* Preto transparente */
   padding: 80px 43px 70px;
   height: 100%;
 }
@@ -167,7 +168,7 @@ a:hover {
 }
 
 .tm-text-dark-gray {
-  color: #676767;
+  color: #e9e8e8d8;
 }
 
 .tm-title-small {
@@ -184,13 +185,12 @@ p {
 }
 
 .tm-contact-item {
-  width: 33.3334%;
+  width: 13.3334%;
   max-width: 345px;
-  height: auto;
-  min-height: 420px;
+  height: 345px; /* Ajustando a altura para o valor máximo da largura */
   margin-right: 35px;
-  background-color: white;
-  padding: 54px 34px 44px;
+  background-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
+  padding: 24px;
 }
 
 .tm-contact-item:last-child {
@@ -225,21 +225,21 @@ p {
 
 .form-control {
   background: transparent;
-  border-color: #999999;
+  border-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
   padding: 15px 10px;
   font-size: 1.1rem;
   margin-bottom: 10px;
 }
 
 .tm-btn-submit {
-  background-color: #999999;
+  background-color: rgba(0, 0, 0, 0.5); /* Preto transparente */
   padding: 12px 30px;
   font-size: 1.2rem;
 }
 
 .tm-btn-submit:focus,
 .tm-btn-submit:hover {
-  background-color: #676767;
+  background-color: #ffffff;
 }
 
 .tm-copyright-text {
@@ -247,7 +247,7 @@ p {
 }
 
 .tm-link {
-  color: #676767;
+  color: rgba(0, 0, 0, 0.5); /* Preto transparente */
 }
 
 @media (max-width: 1054px) {
