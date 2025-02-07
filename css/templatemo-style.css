@@ -1,21 +1,4 @@
-/**
-
-Mini Profile Template
-
-https://templatemo.com/tm-530-mini-profile
-
-
-Color Codes
-------------
-brown: #986665;
-green: #98cb00;
-orange: #cc6733;
-blue: #3398cc;
-dark-gray: #676767;
-light-gray: #999999;
-text-gray: #6b6b6b;
-
-*/
+/* Mini Profile Template */
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -30,8 +13,7 @@ body {
   overflow-x: hidden;
 }
 
-a,
-button {
+a, button {
   transition: all 0.3s ease;
 }
 
@@ -67,9 +49,7 @@ a:hover {
   background-color: #676767;
 }
 
-/*
-  Welcome section
-*/
+/* Welcome section */
 #tmWelcome {
   position: relative;
   display: flex;
@@ -144,10 +124,7 @@ a:hover {
   text-align: center;
 }
 
-/*
-  Portfolio section
-*/
-
+/* Portfolio section */
 #tmPortfolio {
   padding-top: 80px;
 }
@@ -201,10 +178,7 @@ p {
   line-height: 1.8;
 }
 
-/*
-  Contact section
-*/
-
+/* Contact section */
 #tmContact {
   padding-top: 95px;
 }
@@ -286,7 +260,6 @@ p {
   .tm-contact-items-container {
     flex-direction: column;
   }
-
   .tm-contact-item {
     width: auto;
     max-width: 680px;
@@ -295,12 +268,10 @@ p {
     margin-right: auto;
     margin-bottom: 30px;
   }
-
   .tm-contact-item:last-child {
     margin-right: auto;
     margin-bottom: 0;
   }
-
   #tmContactForm {
     margin-left: auto;
     margin-right: auto;
@@ -311,16 +282,12 @@ p {
   .tm-portfolio-item {
     flex-direction: column;
   }
-
   .tm-portfolio-name {
     justify-content: center;
   }
-
-  .tm-portfolio-name,
-  .tm-portfolio-description {
+  .tm-portfolio-name, .tm-portfolio-description {
     width: 100%;
   }
-
   .tm-portfolio-description {
     padding: 20px 30px;
   }
@@ -336,10 +303,7 @@ p {
   .tm-brand-name {
     font-size: 3rem;
   }
-
   .tm-brand-container {
     padding: 25px;
   }
-
-
 }
